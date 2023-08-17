@@ -15,9 +15,10 @@ const config: Config = {
       },
       colors: {
         blue: "hsl(227, 92%, 58%)",
+        "blue-end": "hsl(227, 92%, 60%)",
         gunmetal: "hsl(215, 31%, 21%)",
         "dark-electric-blue": "hsl(215, 17%, 45%)",
-        "border-color": "hsl(200, 24%, 88%)",
+        "bordercolor": "hsl(200, 24%, 88%)",
         "gradient-blue": "hsl(216, 95%, 92%)",
       },
       fontFamily: {
@@ -25,6 +26,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }
 export default config
