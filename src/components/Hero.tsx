@@ -19,11 +19,14 @@ const Hero: FC<HeroProps> = ({ }) => {
             ">
                 <h3 className="text-[28px] font-semibold tracking-tighter">Enter your details below</h3>
                 <div className="flex gap-[20px]">
-                    <div>
-                        <input id='metric' type="radio" name="radioOptions" className="w-[31px] h-[31px] cursor-pointer bg-bordercolor checked:bg-red focus:ring-0" />
-                        <label htmlFor="metric" className='ml-[10px]'>Metric</label>
+                    <div className="group">
+                        <input id='metric' type="radio" name="radioOptions" className=" w-[30px] h-[30px]  border border-gray
+                                                                                        group-hover:cursor-pointer
+                                                                                        checked:text-blue checked:text-opacity-20 focus:ring-transparent
+                                                                                        checked:before:content-[''] checked:before:w-[60%] checked:before:h-[60%] checked:before:block checked:before:my-[20%] checked:before:mx-auto checked:before:border checked:before:border-blue checked:before:rounded-full checked:before:bg-blue"  />
+                        <label htmlFor="metric" className='ml-[10px] group-hover:cursor-pointer'>Metric</label>
                     </div>
-                    <div>
+                    <div className='group'>
                         <input id='imperial' type="radio" name='radioOptions' className='' />
                         <label htmlFor="imperial" className='ml-[10px]'>Imperial</label>
                     </div>
