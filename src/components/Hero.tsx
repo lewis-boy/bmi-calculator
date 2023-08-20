@@ -15,7 +15,7 @@ const Hero: FC<HeroProps> = ({ }) => {
                 </div>
             </div>
             <div className="w-[90%] h-[649px] flex flex-col p-[24px] gap-[24px] items-center absolute top-[600px] left-[5%] bg-white rounded-[16px]
-                shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
+                
             ">
                 <h3 className="text-[28px] font-semibold tracking-tighter">Enter your details below</h3>
                 <div className="flex gap-[20px]">
